@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "test": "cypress run --browser chrome --no-exit",
+        "open": "npx cypress open"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    },
+    "devDependencies": {
+        "cypress": "^4.5.0",
+        "cypress-cucumber-preprocessor": "^2.3.1"
+    }
+}
